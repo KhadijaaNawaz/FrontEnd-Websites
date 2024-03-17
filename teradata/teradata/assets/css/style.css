@@ -1,0 +1,138 @@
+.neg-margin{
+    margin-top: -15%;
+}
+.my-container{
+    width:88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-color-orange {
+    color: #FF5F02 !important;
+}
+.background-orange{
+    background:#FF5F02;
+}
+.border-none{
+    border: none !important;
+}
+.my-border-radius {
+    border-radius: 10px !important;
+}
+.my-border-radius-top{
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important ;
+}
+.my-border-radius-right {
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important ;
+}
+.font-size-for-button {
+    font-size: 1.08rem !important;
+}
+
+.border-top-end {
+    border-top: 1px solid hsla(0, 0%, 100%, .05);
+}
+/* underline */
+.animated-underline {
+    display: inline-block;
+}
+
+.animated-underline:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 200ms;
+}
+
+.animated-underline:hover:after {
+    width: 100%;
+}
+
+.animated-underline-orange {
+    display: inline-block;
+}
+
+.animated-underline-orange:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background:#FF5F02;
+    transition: 200ms;
+}
+.hover-class:hover{
+    color: #FF5F02 !important;
+}
+.animated-underline-orange:hover:after {
+    width: 100%;
+}
+.width-55{
+    max-width: 55%!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {  
+    background-color: white !important;
+}
+
+.dash-class{
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background: #ff5f02;
+}
+.background-blue{
+    background-color: rgb(0, 35, 60) !important;
+}
+.my-container-form{
+    width: 400px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo-color{
+    filter: grayscale(1) brightness(1.25);
+}
+.responsive-width{
+    padding-left: 3rem ;
+    padding-right: 3rem ;
+    margin-left: 3rem ;
+    margin-right: 3rem ;
+}
+.my-width{
+    width: 75%;
+}
+.margin-5{
+    margin-left: 3rem;
+    margin-right: 3rem ;
+}
+.margin-start-5{
+    margin-left: 3rem;
+}
+@media (max-width:1000px){
+    .responsive-width{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .my-width{
+        width:100% !important;
+    }
+    .margin-5{
+        margin-left: 0rem !important;
+        margin-right: 0rem  !important;
+    }
+    .margin-start-5{
+        margin-left: 0rem !important;
+    }
+}
+
+
+
+
+
+
+
+
+

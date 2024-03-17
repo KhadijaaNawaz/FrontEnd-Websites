@@ -1,0 +1,1215 @@
+body {
+    font-family: 'poppins';
+}
+
+/* navigation bar */
+
+.navbar {
+    z-index: 100;
+    background-color: #101117;
+    box-shadow: 2px 2px 10px 0px;
+}
+
+.navlinks {
+    color: #EE5922;
+}
+
+.navlinks:hover {
+    color: white;
+}
+
+.active-nav {
+    color: white !important;
+}
+
+.quote-btn {
+    background-color: #EF7F12;
+    border: 1px solid #EE5922;
+    padding: 12px 11px;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+
+/* Section 1 */
+
+/* Section 1 of home page */
+
+.home .section-1 {
+    padding: 120px 0px 75px 0px !important;
+    background-color: #000000;
+    color: white;
+    height: 620px;
+}
+
+@media (max-width: 1200px) {
+    .home .section-1 {
+        height: 730px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .home .section-1 {
+        height: 970px !important;
+    }
+
+    .home .section-1 .big-circle {
+        top: 80px !important;
+        left: 130px !important;
+    }
+
+    .home .section-1 .small-circle {
+        top: 188px !important;
+        left: 227px !important;
+    }
+
+    .home .section-1 .mobile {
+        top: 230px !important;
+        left: 242px !important;
+    }
+
+    .home .section-1 .coin-1 {
+        top: 220px !important;
+        left: 180px !important;
+    }
+
+    .home .section-1 .coin-2 {
+        top: 213px !important;
+        left: 315px !important;
+    }
+
+    .home .section-1 .bluebox-1 {
+        top: 405px !important;
+        left: 239px !important;
+
+    }
+
+    .home .section-1 .whitebox-1 {
+        top: 390px !important;
+        left: 239px !important;
+    }
+
+    .home .section-1 .bluebox-2 {
+        top: 407px !important;
+        left: 337px !important;
+    }
+
+    .home .section-1 .whitebox-2 {
+        top: 354px !important;
+        left: 338px !important;
+    }
+
+    .home .section-1 .bluebox-3 {
+        top: 332px !important;
+        left: 435px !important;
+    }
+
+    .home .section-1 .whitebox-3 {
+        top: 314px !important;
+        left: 434px !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .home .section-1 {
+        height: 990px !important;
+    }
+
+    .home .section-1 .big-circle {
+        top: 80px !important;
+        left: 45px !important;
+    }
+
+    .home .section-1 .small-circle {
+        top: 188px !important;
+        left: 142px !important;
+    }
+
+    .home .section-1 .mobile {
+        top: 230px !important;
+        left: 157px !important;
+    }
+
+    .home .section-1 .coin-1 {
+        top: 220px !important;
+        left: 95px !important;
+    }
+
+    .home .section-1 .coin-2 {
+        top: 213px !important;
+        left: 230px !important;
+    }
+
+    .home .section-1 .bluebox-1 {
+        top: 405px !important;
+        left: 154px !important;
+
+    }
+
+    .home .section-1 .whitebox-1 {
+        top: 390px !important;
+        left: 154px !important;
+    }
+
+    .home .section-1 .bluebox-2 {
+        top: 407px !important;
+        left: 252px !important;
+    }
+
+    .home .section-1 .whitebox-2 {
+        top: 354px !important;
+        left: 253px !important;
+    }
+
+    .home .section-1 .bluebox-3 {
+        top: 332px !important;
+        left: 350px !important;
+    }
+
+    .home .section-1 .whitebox-3 {
+        top: 314px !important;
+        left: 394px !important;
+    }
+}
+
+@media (max-width: 585px) {
+    .home .section-1 {
+        height: 775px !important;
+    }
+
+    .home .section-1 .big-circle {
+        top: 50px !important;
+        left: 133px !important;
+        width: 50% !important;
+    }
+
+    .home .section-1 .small-circle {
+        top: 117px !important;
+        left: 195px !important;
+        width: 27%;
+    }
+
+    .home .section-1 .mobile {
+        top: 146px !important;
+        left: 193px !important;
+        width: 27% !important;
+    }
+
+    .home .section-1 .coin-1 {
+        top: 145px !important;
+        left: 170px !important;
+        width: 3% !important;
+    }
+
+    .home .section-1 .coin-2 {
+        top: 124px !important;
+        left: 243px !important;
+        width: 3% !important;
+    }
+
+    .home .section-1 .bluebox-1 {
+        top: 255px !important;
+        left: 191px !important;
+        width: 7% !important;
+    }
+
+    .home .section-1 .whitebox-1 {
+        top: 247px !important;
+        left: 192px !important;
+        width: 7% !important;
+    }
+
+    .home .section-1 .bluebox-2 {
+        top: 254px !important;
+        left: 252px !important;
+        width: 7% !important;
+    }
+
+    .home .section-1 .whitebox-2 {
+        top: 205px !important;
+        left: 253px !important;
+        width: 7% !important;
+    }
+
+    .home .section-1 .bluebox-3 {
+        top: 218px !important;
+        left: 312px !important;
+        width: 7% !important;
+    }
+
+    .home .section-1 .whitebox-3 {
+        top: 211px !important;
+        left: 311px !important;
+        width: 7% !important;
+    }
+}
+
+.home .section-1 .external {
+    margin: 0 50px 0 50px !important;
+}
+
+.home .section-1 .book-btn {
+    background-color: #F14104;
+    padding: 12px 25px;
+}
+
+@keyframes clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.home .section-1 .big-circle {
+    position: absolute;
+    top: 0;
+    left: 105px;
+    animation: clockwise 20s linear infinite;
+}
+
+@keyframes anticlockwise {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.home .section-1 .small-circle {
+    position: absolute;
+    top: 103px;
+    left: 205px;
+    animation: anticlockwise 20s linear infinite;
+}
+
+.home .section-1 .mobile {
+    position: absolute;
+    top: 160px;
+    left: 210px;
+    width: 230px;
+}
+
+@keyframes moveUpDown1 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+}
+
+.home .section-1 .coin-1 {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    animation: moveUpDown1 5s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
+}
+
+.home .section-1 .coin-2 {
+    position: absolute;
+    top: 130px;
+    left: 285px;
+    animation: moveUpDown 5s ease-in-out infinite;
+}
+
+.home .section-1 .bluebox-1 {
+    position: absolute;
+    top: 340px;
+    left: 210px;
+
+}
+
+.home .section-1 .whitebox-1 {
+    position: absolute;
+    top: 335px;
+    left: 210px;
+    animation: moveUpDown1 5s ease-in-out infinite;
+}
+
+.home .section-1 .bluebox-2 {
+    position: absolute;
+    top: 335px;
+    left: 320px;
+}
+
+.home .section-1 .whitebox-2 {
+    position: absolute;
+    top: 280px;
+    left: 320px;
+    animation: moveUpDown 5s ease-in-out infinite;
+}
+
+.home .section-1 .bluebox-3 {
+    position: absolute;
+    top: 278px;
+    left: 410px;
+}
+
+.home .section-1 .whitebox-3 {
+    position: absolute;
+    top: 265px;
+    left: 410px;
+    animation: moveUpDown1 5s ease-in-out infinite;
+}
+
+/* Section 1 of about Page */
+
+.about .section-1 {
+    padding: 120px 0 90px 0;
+}
+
+.about .section-1 .para {
+    color: #807f88;
+}
+
+/* Section 1 of service page */
+
+.service .section-1 {
+    padding: 120px 0 90px 0;
+}
+
+.service .section-1 .para {
+    color: #807f88;
+}
+
+/* Section 1 of Blockchain Page */
+
+.blockchain .section-1 {
+    padding: 120px 0;
+    background-image: url("../img/Blockchain_background.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-color: #F1F1F1;
+}
+
+.blockchain .underline {
+    border: none;
+    border-bottom: 4px solid white;
+    opacity: 1 !important;
+    width: 60px;
+    margin: -25px 0 30px 0;
+}
+
+.blockchain .section-1 .para {
+    font-size: 18px;
+    color: white
+}
+
+.blockchain .section-1 .consult{
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #EF7F12;
+    transition: all 0.4s ease
+}
+
+.blockchain .section-1 .consult:hover{
+    scale: 1.08;
+    transition: all 0.4s ease
+}
+
+/* Section 1 of Wabinar Page */
+
+.wabinar .section-1 {
+    padding: 120px 0 10px 0;
+}
+
+.wabinar .section-1 .para {
+    color: #807f88;
+}
+
+.wabinar .section-1 .wabinar-img {
+    transition: all 0.5s ease
+}
+
+.wabinar .section-1 .wabinar-img:hover {
+    transform: translateY(-8px);
+    transition: all 0.5s ease
+}
+
+.wabinar .section-1 .watch-btn {
+    background-color: #EF7F12;
+}
+
+/* Section 1 of blog Page */
+
+.blog .section-1 {
+    padding: 110px 0;
+}
+
+.blog .section-1 .internal-div {
+    border: 0.5px solid #cfcfcf;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog .section-1 .internal-div:hover {
+    box-shadow: 0px 0px 20px 5px #dadada;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog .section-1 .para {
+    color: #807f88;
+}
+
+.blog .section-1 .main-heading {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog .section-1 .main-heading:hover {
+    color: #EF7F12;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog .section-1 .blog-btn {
+    color: #EF7F28;
+    border: 2px solid #EF7F12;
+    transition: all 0.2s ease-in-out
+}
+
+.blog .section-1 .blog-btn:hover {
+    color: white;
+    background-color: #EF7F12;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog .section-1 .side-div {
+    border: 0.5px solid #cfcfcf;
+    padding: 14px;
+}
+
+.blog .section-1 .side-div input {
+    border: 0.5px solid #cfcfcf !important;
+    outline: none;
+}
+
+.blog .section-1 .categories {
+    border-bottom: 0.5px solid #cfcfcf;
+    list-style-type: none;
+}
+
+.blog .section-1 .categories a {
+    font-weight: 600;
+    color: #767171;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog .section-1 .categories a:hover {
+    color: #EF7F12;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog .section-1 .pagination {
+    height: 46px;
+    width: 46px;
+    border: 1.5px solid #ECECEC;
+    border-radius: 50%;
+    transition: all 0.3s ease
+}
+
+.blog .section-1 .pagination:hover {
+    border: 1.5px solid #EF7F12;
+    transition: all 0.3s ease
+}
+
+.blog .section-1 .pagination:hover .page-nmbr {
+    color: #EF7F12;
+    transition: all 0.3s ease
+}
+
+
+.blog .section-1 .page-nmbr {
+    margin: 0;
+    color: #767171;
+    transition: all 0.3s ease
+}
+
+/* section 2 */
+
+.home .section-2 {
+    padding: 75px 0px;
+    background-image: url(../img/sec-2-background.png);
+    background-size: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.underline {
+    border: none;
+    border-bottom: 4px solid black;
+    opacity: 1 !important;
+    width: 60px;
+    margin: -15px 0 30px 0;
+}
+
+.home .section-2 .para {
+    color: #868282;
+}
+
+
+.home .section-2 .row-internal {
+    background-color: #EF7F12;
+    color: white;
+}
+
+.home .section-2 .row-internal:hover {
+    background-color: #000000;
+}
+
+.home .section-2 .row-internal .heading {
+    color: white;
+    text-decoration: none;
+}
+
+.home .section-2 .row-internal .heading:hover {
+    color: #EF7F12;
+}
+
+.home .section-2 .row-internal .fa-arrow-right {
+    display: none;
+}
+
+.home .section-2 .row-internal:hover .fa-arrow-right {
+    display: inline-block;
+}
+
+.home .section-2 .row-3 {
+    margin-top: 150px;
+}
+
+.home .section-2 .row-3 .bulb {
+    top: 0;
+    left: -40px;
+    z-index: 1;
+}
+
+.home .section-2 .row-3 .wheel-1 {
+    top: 56px;
+    left: 135px;
+    animation: clockwise 4.5s linear infinite;
+}
+
+.home .section-2 .row-3 .wheel-2 {
+    top: 5px;
+    left: 133px;
+    animation: anticlockwise 4.5s linear infinite;
+}
+
+.home .section-2 .row-3 .wheel-3 {
+    top: 24px;
+    left: 180px;
+    animation: clockwise 4.5s linear infinite;
+}
+
+/* Section 2 of about Page */
+
+.about .section-2 {
+    padding: 75px 0px;
+    background-color: #F5F5F5;
+}
+
+.about .section-2 .para {
+    color: #807f88;
+}
+
+/* Section 2 of services page */
+
+.service .section-2 {
+    background-image: url("../img/background-service.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.service .section-2 .row-internal {
+    color: white;
+    border: 0.5px solid white;
+    transition: all 0.5s ease;
+}
+
+.service .section-2 .row-internal:hover {
+    background-color: rgba(225, 128, 0, 0.7);
+    transition: all 0.5s ease;
+}
+
+.service .section-2 .row-internal .heading {
+    color: white;
+    text-decoration: none;
+}
+
+.service .section-2 .row-internal .heading:hover {
+    color: #EF7F12;
+}
+
+.service .section-2 .row-internal .fa-arrow-right {
+    display: none;
+}
+
+.service .section-2 .row-internal:hover .fa-arrow-right {
+    display: inline-block;
+}
+
+/* Section 2 od Blockchain page */
+
+.blockchain .section-2 {
+    padding: 75px 0px;
+    background-color: #F1F1F1;
+}
+
+.blockchain .section-2 .underline {
+    border-color: #000000;
+}
+
+.blockchain .section-2 .para {
+    color: #868282;
+}
+
+.blockchain .section-2 .row-internal .heading {
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.blockchain .section-2 .row-internal .heading:hover {
+    color: #EF7F12;
+    transition: all 0.5s ease;
+}
+
+.blockchain .section-2 .row-internal .read-more {
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.blockchain .section-2 .row-internal .read-more:hover {
+    color: #F15C25;
+    transition: all 0.5s ease;
+}
+
+.blockchain .section-2 .articles {
+    width: 100%;
+    padding: 40px 20px;
+    background: url(../img/integrate_background.png), #000000;
+    background-position: bottom 75% left 100%;
+    background-repeat: no-repeat;
+}
+
+.section-2 .articles {
+    width: 100%;
+    padding: 40px 20px;
+    background: url(../img/integrate_background.png), #000000;
+    background-position: bottom 75% left 100%;
+    background-repeat: no-repeat;
+}
+
+.blockchain .section-2 .talk-btn {
+    background-color: #EF7F12;
+    padding: 10px 30px;
+    color: white;
+}
+
+/* section 3 */
+
+.home .section-3 {
+    padding: 85px 0px;
+    background: url('../img/sec-3-background.png'), #1A181B;
+    background-size: auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    .home .section-3 {
+        height: 1830px !important;
+    }
+
+    .home .section-3 .moving-box {
+        top: 78px !important;
+        left: -183px !important;
+    }
+
+}
+
+.home .section-3 .underline {
+    border: none;
+    border-bottom: 4px solid black;
+    opacity: 1 !important;
+    width: 60px;
+    margin-bottom: 75px !important;
+}
+
+.home .section-3 .contact-btn {
+    border: 1px solid #EF7F12;
+    padding: 12px 35px;
+}
+
+.home .section-3 .multiple-box {
+    top: 60px;
+    left: 20px;
+}
+
+.home .section-3 .moving-box {
+    top: 100px;
+    left: -120px;
+    animation: moveUpDown1 5s ease-in-out infinite;
+}
+
+/* Section 3 of about Page */
+
+.about .section-3 {
+    padding: 75px 0px;
+}
+
+.about .section-3 .internal-div:hover .mem-img {
+    -webkit-filter: brightness(120%);
+}
+
+.about .section-3 .mem-img {
+    transition: all 0.8s ease
+}
+
+.about .section-3 .mem-img:hover {
+    scale: 0.92;
+    transition: all 0.8s ease
+}
+
+.about .section-3 .mem-name {
+    font-size: 28px;
+}
+
+.about .section-3 .mem_disg {
+    color: #EF7F12;
+}
+
+.about .section-3 .logo-div {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background-color: #0077B5;
+    transition: all 0.5s ease
+}
+
+.about .section-3 .logo-div:hover {
+    background-color: #108fd3;
+    transition: all 0.5s ease
+}
+
+/* Section 3 of services page */
+
+.service .section-3 {
+    padding: 100px 0px;
+    background-image: url(../img/sec-2-background.png);
+    background-size: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.service .section-3 .bulb {
+    top: 0;
+    left: -40px;
+    z-index: 1;
+}
+
+.service .section-3 .wheel-1 {
+    top: 56px;
+    left: 135px;
+    animation: clockwise 4.5s linear infinite;
+}
+
+.service .section-3 .wheel-2 {
+    top: 5px;
+    left: 133px;
+    animation: anticlockwise 4.5s linear infinite;
+}
+
+.service .section-3 .wheel-3 {
+    top: 24px;
+    left: 180px;
+    animation: clockwise 4.5s linear infinite;
+}
+
+/* section 3 od Blockchain page */
+
+.blockchain .section-3 {
+    padding: 75px 0px;
+}
+
+.blockchain .section-3 .underline {
+    border-bottom: 4px solid black;
+    margin: -15px 0 30px 0;
+}
+
+.blockchain .section-3 .para {
+    color: #868282;
+}
+
+
+
+
+/* section 4 */
+
+.home .section-4 {
+    padding: 70px 60px;
+    height: auto;
+}
+
+.home .section-4 .para {
+    color: #767171;
+}
+
+.home .section-4 .connectors {
+    padding-left: 90px;
+}
+
+.home .section-4 .connectors-odd {
+    padding-left: 90px;
+    height: 155px;
+    width: 200px;
+}
+
+@media (max-width: 992px) {
+    .home .section-4 .odd-col {
+        padding-top: 0px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .home .section-4 .odd-col {
+        padding-top: 155px !important;
+    }
+}
+
+/* Section 4 of service page*/
+
+.service .section-4{
+    padding: 20px 0px;
+    background-image: url("../img/background-form.webp");
+    background-position: center center;
+}
+
+.service .btn{
+    background-color: #EF7F12;
+    border-radius: 5px;
+}
+
+.service .btn:hover{
+    border: 1px solid #F15A22;
+    background: none;
+    border-radius: 5px;
+    scale: 1.1;
+}
+
+/* Section 4 of blockchain page */
+
+.blockchain .section-4 {
+    padding: 75px 0px;
+    background-color: #F1F1F1;
+}
+
+.blockchain .section-4 .underline {
+    border-bottom: 4px solid black;
+    margin: -15px 0 30px 0;
+}
+
+.blockchain .section-4 .para {
+    color: #868282;
+}
+
+/* section 5 */
+
+.home .section-5 {
+    height: auto;
+    background-image: url(../img/development.png);
+    background-size: cover;
+    background-position: top 120% right;
+    background-repeat: no-repeat;
+}
+
+.home .section-5-1 {
+    background-image: url(../img/development_2.png);
+    background-size: cover;
+    background-position: bottom 170% left;
+    background-repeat: no-repeat;
+}
+
+.home .section-5 .para {
+    color: #767171;
+}
+
+.home .section-5 .developments {
+    margin-top: 160px;
+}
+
+.home .section-5 .mobile-dev {
+    padding-bottom: 75px;
+}
+
+.home .section-5 .integrate-business {
+    width: 100%;
+    padding: 40px;
+    margin-top: 65px;
+    background: url(../img/integrate_background.png), #000000;
+    background-position: bottom 75% left 100%;
+    background-repeat: no-repeat;
+}
+
+.home .section-5 .talk-btn {
+    background-color: #EF7F12;
+    padding: 10px 30px;
+    color: white;
+}
+
+/* Section 5 of blockchain page */
+
+.blockchain .section-5 {
+    padding-bottom: 30px;
+    background-image: url("../img/Group-1760.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blockchain .section-5 .underline {
+    border-bottom: 4px solid black;
+    margin: -15px 0 30px 0;
+}
+
+.blockchain .section-5 .para {
+    color: #868282;
+}
+
+.blockchain .section-5 .industry-img{
+    margin-top: 72px;
+    scale: 1.2;
+}
+
+/* section 6 */
+
+.home .section-6 {
+    padding-bottom: 120px;
+    height: auto;
+}
+
+.home .section-6 .articles {
+    width: 100%;
+    padding: 40px 40px 130px 40px;
+    background: url(../img/articles_background.png), #000000;
+    background-position: bottom 75% left 100%;
+    background-repeat: no-repeat;
+}
+
+.home .section-6 .read-more {
+    background-color: #EF7F12;
+    padding: 10px 30px;
+    color: white;
+}
+
+.home .section-6 .article-row {
+    margin-top: -85px;
+}
+
+.home .section-6 .org-hover {
+    color: black;
+}
+
+.home .section-6 .org-hover:hover {
+    color: #EF7F12;
+}
+
+.home .section-6 .industry {
+    margin-top: 130px;
+}
+
+/* Section 6 of blockchain page */
+
+.blockchain .section-6 {
+    padding: 110px 0px 95px;
+}
+
+.blockchain .section-6 .underline {
+    border-bottom: 4px solid black;
+    margin: -15px 0 30px 0;
+}
+
+.blockchain .section-6 .para {
+    color: #868282;
+}
+
+/* section 7 */
+
+.home .section-7 {
+    padding: 50px 0px;
+    background-color: #F5F5F5;
+}
+
+.home .section-7 .para {
+    color: #767171;
+}
+
+/* Section 7 of blockchain page */
+
+.blockchain .section-7 {
+    padding: 110px 0px 95px;
+    background-color: #F1F1F1;
+}
+
+.blockchain .section-7 .underline {
+    border-bottom: 4px solid black;
+    margin: -15px 0 30px 0;
+}
+
+.blockchain .section-7 .para {
+    color: #868282;
+}
+
+/* Section 8 of blockchain page*/
+
+.blockchain .section-8{
+    padding: 20px 0px;
+    background-image: url("../img/background-form.webp");
+    background-position: center center;
+}
+
+.blockchain .btn{
+    background-color: #EF7F12;
+    border-radius: 5px;
+}
+
+.blockchain .btn:hover{
+    border: 1px solid #F15A22;
+    background: none;
+    border-radius: 5px;
+    scale: 1.1;
+}
+
+/* Section 9 of blockchain page */
+
+.blockchain .section-9 {
+    padding-bottom: 120px;
+    background-color: #F1F1F1;
+}
+
+.blockchain .section-9 .underline {
+    border-bottom: 4px solid black;
+    margin: -15px 0 30px 0;
+}
+
+.blockchain .section-9 .articles {
+    padding: 110px 0 95px;
+}
+
+.blockchain .section-9 .read-more {
+    background-color: #EF7F12;
+    padding: 10px 30px;
+    color: white;
+}
+
+.blockchain .section-9 .article-row {
+    margin-top: -85px;
+}
+
+.blockchain .section-9 .card-img{
+    transition: all 0.6s ease;
+}
+
+.blockchain .section-9 .card:hover .card-img{
+    scale: 0.95;
+    transition: all 0.6s ease;
+}
+
+.blockchain .section-9 .org-hover {
+    color: black;
+}
+
+.blockchain .section-9 .org-hover:hover {
+    color: #EF7F12;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 90px;
+    background-color: black;
+}
+
+.footer .underline {
+    border: none;
+    border-bottom: 4px solid #EF7F12;
+    opacity: 1 !important;
+    width: 60px;
+    margin: -17px 0 30px 0;
+}
+
+.footer .foot-top {
+    margin-bottom: 75px;
+}
+
+.footer .foot-bottom {
+    top: 315px;
+    left: 0;
+}
+
+.footer .logo-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease
+}
+
+.footer .logo-div:hover {
+    background-color: #EF7F12;
+    margin-bottom: 20px;
+    transform: translateY(-8px);
+    transition: all 0.5s ease
+}
+
+.footer .logo {
+    margin-top: 13px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #B9451A;
+}
+
+.footer .devider {
+    opacity: 1;
+    border: 1px solid #767171;
+}
+.section-2 .border-grey
+{
+    border: 3px rgb(165, 160, 160) solid;
+}
+.contact-us .section-1 .bg-orange
+{
+background: #EF7F12;
+}
