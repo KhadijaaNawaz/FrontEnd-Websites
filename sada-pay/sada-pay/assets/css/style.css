@@ -1,0 +1,159 @@
+.text-orange {
+    color: #FF6C59 !important;
+}
+.body-color
+{
+    background-color: #fdf7f7;
+}
+
+.background-orange {
+    background-color: #FF6C59 !important;
+}
+
+.text-light-blue {
+    color: #677294 !important;
+}
+
+.image-radius {
+    border-radius: 20px !important;
+}
+
+.line-height {
+    line-height: 1;
+}
+
+.background-grey {
+    background: #FAFAFD;
+}
+
+.blue-footer {
+    color: #576f87 !important;
+}
+
+.center-content {
+    height: 100vh;
+    background-image: url(../images/banner_bg-og.png);
+    background-size: cover;
+    background-position: center;
+}
+.center-content-2 {
+    height: 85vh;
+    background-image: url(../images/sadabiz-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.no-underline {
+    text-decoration: none !important;
+
+}
+.skewed {
+    transform: skew(-28deg, 1deg);
+   
+  }
+  .bg-black
+  {
+    background-color: black!important;
+  }
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .centered-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .video-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.text-overlay {
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+.border-orange
+{
+    border: solid 2px orangered !important;
+}
+.col-hover {
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s, border-top 0.3s; 
+}
+
+.col-hover:hover {
+    background-color: #ffffff; 
+   box-shadow: black;
+   border-radius: 10px;
+   border-top: #FF6C59 solid 5px 
+   !important ;
+   color: #FF6C59;
+}
+
+.background-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.mini-icon {
+    position: absolute;
+    cursor: pointer;
+    transition: top 0.3s, left 0.3s;
+}
+
+.mini-icon:hover {
+    top:50%;
+    left: 0px;
+}
+.unstyled
+{
+    text-decoration: none;
+}
+.pagination-style
+{
+    border-radius: 50%;
+}
+
+/* section 6 */
+.bills1{
+    height: 446px !important;
+    top: 170px;
+    left: 140px;
+}
+
+.bills2{
+    height: 130px !important;
+    top: 260px;
+    left: 43px;
+}
+
+.bills3{
+    height: 320px !important;
+    top: 80px;
+    left: 145px;
+}
+
+/* section 7 */
+.section-7{
+    padding: 70px 0px;
+}
+
+.section-7 .control{
+    padding-top: 220px;
+}
+
+@media (max-width: 768px) { 
+    .position-relative-media {
+        position: static !important; 
+    }
+    
+    .position-absolute-media.top-50-media {
+        position: static !important; 
+        transform: none; 
+        margin-top: 20px; 
+    }
+}
